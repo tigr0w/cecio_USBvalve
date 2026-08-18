@@ -199,16 +199,13 @@ I grouped most of the variables you may want to modify in this section of `usb_c
 //
 // You can see here for inspiration: https://the-sz.com/products/usbid/
 //
-// Example:
-//             0x0951 0x16D5    VENDORID_STR: Kingston   PRODUCTID_STR: DataTraveler
-//
-#define USB_VENDORID       0x0951
-#define USB_PRODUCTID      0x16D5
-#define USB_DESCRIPTOR     "DataTraveler"
-#define USB_MANUF          "Kingston"
+#define USB_VENDORID       0xCAFE
+#define USB_PRODUCTID      0x1337
+#define USB_DESCRIPTOR     "DataStore"
+#define USB_MANUF          "USB Acme"
 #define USB_SERIAL         "123456789A"
-#define USB_VENDORID_STR   "Kingston"        // Up to 8 chars
-#define USB_PRODUCTID_STR  "DataTraveler"    // Up to 16 chars
+#define USB_VENDORID_STR   "Acme"            // Up to 8 chars
+#define USB_PRODUCTID_STR  "DataStore"       // Up to 16 chars
 #define USB_VERSION_STR    "1.0"             // Up to 4 chars
 ```
 
